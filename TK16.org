@@ -1,0 +1,560 @@
+#+TITLE: Tehno Klistir 16
+
+WELCOME TO RISEUP'S ETHERPAD! Welcome, welcome, welcome
+
+ WARNING: this pad is accessible by anyone who has the address to this pad, if you used an obvious name for the pad, it could be guessed.
+ WARNING: This pad will be DELETED if 30 days go by with no edits. There is NO WAY to recover the pad after this happens, so be careful!
+ pepi kaki fifi smrdi
+  Riseup is a collective providing secure online communication tools for people and groups working on liberatory social change. If you appreciate the tools Riseup provides, please contribute! We rely on contributions by users to exist: https://riseup.net/donate
+
+* GDPR
+  
+==== 
+GDPR    
+====    
+Splošna uredba o varstvu podatkov
+General Data Protection Regulation
+Splošna Data Varnostna Regulacija
+
+** linki
+ - https://ec.europa.eu/info/law/law-topic/data-protection_en predlog zakona
+ - https://ec.europa.eu/commission/priorities/justice-and-fundamental-rights/data-protection/2018-reform-eu-data-protection-rules_en
+ - BESEDILO V SLOVENŠČINI: http://eur-lex.europa.eu/legal-content/SL/TXT/PDF/?uri=CELEX:32016R0679&from=EN
+ - https://www.theregister.co.uk/2018/04/27/europe_icann_whois_gdpr/
+ - ICANN had somehow persuaded itself, despite clear guidance (https://www.theregister.co.uk/2018/04/14/whois_icann_gdpr_europe/ ) from the European authorities, that it was still going to be able to publish everyone's personal emails, through a vague reference to its own bylaws. ICANN's executive team said it had "hand-delivered" no less than five letters to the Article 29 Working Party – four of which are dominated by US intellectual property interests, who want to retain unfettered access to all domain name registration information. The one letter that did not come from a group dominated by US corporate interests – ICANN's Non-Commercial Stakeholders Group – bluntly disowned [PDF] each argument that ICANN's executives have put forward.  If ICANN is taken to be a data controller, then the GDPR requirements not only land on the companies that it contracts with but on ICANN itself – meaning it could also be subject to millions of dollars in fines.  https://www.theregister.co.uk/2018/04/25/icann_whois_gdpr/
+ - whois is dead ICANN now has a little over a month to come up with a replacement to the decades-old service that covers millions of domain names and lists the personal contact details of domain registrants, including their name, email and telephone number. Critics point out that ICANN has largely brought these problems on itself, having ignored official warnings from the Article 29 Working Party for nearly a decade, and only taking the GDPR requirements seriously six months ago when there has been a clear two-year lead time.  https://www.theregister.co.uk/2018/04/14/whois_icann_gdpr_europe/  His best line of attack is likely to be that the GDPR was designed for internet giants like Facebook and Google and their vast databases of personal data but did not properly consider more structural services like Whois.
+ - It's not entirely clear what lies behind this proposal but given that almost all the pressure on ICANN – and the US government - comes from large corporations and their intellectual property lawyers, it is likely to represent a legal workaround that would allow IP lawyers direct access to Whois data by bypassing the legal obligations contained in the contract ICANN has with registrars. https://www.theregister.co.uk/2018/04/17/us_government_whois_debacle/
+   
+   Če kaj štekam: ICANN ima ta whois service, s katero servira podatke o lastinikih domen, komur zaprosi zanje - je uporabna storitev, ker lahko z njo preveriš kje je (tvoja) domena registrirana, če si pozabil ali jo prejel v upravljanje ... EU je 10 let opozarjal ICANN, da ta storitev ni kompatibilna z zakoni EU o zaščiti osebnih podtakov, a so na ICANNu to kratkomalo ignorirali. (Imela sva oddajo o tem, kako je ICANN prežet s korporativnimi interesi - 50k/letne članarine, potem pa enakopraven glas, al kaj). Da so te podatki tako javni je v interesu predvsem intelektualnim lastnikom, ki takoj vedo, koga morajo it tožit, če mislijo, da je njihova lastnina skrunjena.
+   Sedaj pa pridejo visoke kazni in ICANN se ne bo več mogel zajebavat. Dogajajo se zanimive stvari. 
+   1. ICANN prosi za moratorij, česar EU ne da. ICANN je še prosit amariški department of commerce, da jim pomaga pri sporu z EU.   
+   2.GoDaddy je začel zavračat dostop do njihovega whois in neke pravne firme so šle že v luft.
+   
+   Ubistvu so članki na the.reg precej slabi in senzacionalistični, kakor oni pač radi delajo. Tukaj še članek z EFF, ki je bolj prizemljen in z več relevantnimi podatki: https://www.eff.org/deeplinks/2018/04/privacy-afterthought-icanns-response-gdpr  The board proposal is an improvement on the status quo, but doesn't go as far in protecting privacy as we would like it to. For example, it leaves it up to individual registrars as to whether they should apply these privacy protections to all domain owners worldwide, or attempt to limit them to those within the European Economic Area. It also contains a too expansive suggested list of acceptable purposes for the collection and processing of WHOIS personal data, including "to address issues involving domain name registrations, including but not limited to: consumer protection, investigation of cybercrime, DNS abuse, and intellectual property protection." 
+   
+ - https://arstechnica.com/tech-policy/2018/04/facebook-removes-1-5-billion-users-from-protection-of-eu-privacy-law/ Facebook je spremenil pogoje sodelovanja za vse uporabnike zunaj EU - prej so vsi neevropejci podpisali sporazum s fb irska, po novem pa bo to fb kalifornija - to je v nasprotju s tem, kar je zatrdil na zaslišanju pred kongresom, kjer je rekel, da bodo vsi uporabniki deležnih EU pravil o zasebnosti. Afrika, Azija, Avstralija, Latinska Amerika - to je 1.5 mrd uporabnikov. Fora fb irske je bil nizek davek na dohodek, očitno ta več ne odtehta striktnih pravil o zasebnosti. In practice, the change means the 1.5 billion affected users will not be able to file complaints with Ireland’s Data Protection Commissioner or in Irish courts. Instead they will be governed by more lenient U.S. privacy laws, said Michael Veale, a technology policy researcher at University College London. Other multinational companies are also planning changes. LinkedIn, a unit of Microsoft Corp, tells users in its existing terms of service that if they are outside the United States, they have a contract with LinkedIn Ireland. New terms that take effect May 8 move non-Europeans to contracts with U.S.-based LinkedIn Corp. https://www.reuters.com/article/us-facebook-privacy-eu-exclusive/exclusive-facebook-to-change-user-terms-limiting-effect-of-eu-privacy-law-idUSKBN1HQ00P?il=0
+ 
+ - https://arstechnica.com/tech-policy/2018/04/atts-least-favorite-net-neutrality-bill-takes-another-step-forward/ V Kaliforniji pa bodo ovrgli zakon o FCC in uvedli nevtralnost spleta.  Enkrat še za prebrat https://arstechnica.com/tech-policy/2018/02/why-ajit-pai-might-fail-in-quest-to-block-state-net-neutrality-laws/
+ 
+ http://www.bentarnoff.com/
+  - https://www.theguardian.com/technology/2018/mar/14/tech-big-data-capitalism-give-wealth-back-to-people SLABO moraliziranje
+  - https://www.theguardian.com/technology/2018/jan/31/data-laws-corporate-america-capitalism  The flow of data now contributes more to world GDP than the flow of physical goods. In other words, there’s more money in moving information across borders than in moving soybeans and refrigerators.
+This is a big shift – and one that has yet to fully sink in for most people. Corporate America, on the other hand, understands it well. Which is why the tech and financial industries are pushing hard for international agreements that prohibit governments from regulating these flows. The most recent example is Nafta: representatives from the US, Mexico, and Canada just concluded another round of talks on renegotiating the treaty. American companies are lobbying for changes that would deregulate data across the three countries.   The Chinese regulations aren’t just about repression, however – they also play a valuable economic role. By building a fence around the Chinese internet, the government has nurtured a homegrown tech industry, in much the same way that restricting imports of manufactured goods can nurture a homegrown manufacturing industry. It’s hard to imagine that China would have a booming local tech sector, centered on big firms like Baidu, Alibaba, and Tencent, without such measures.
+
+** GDPR - kaj je / kaj obsega?
+
+“Personal data” includes names, addresses, phone numbers and IP addresses, as well as what GDPR calls “factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person”. That includes biometrics such as face, fingerprint and iris recognition, and genetic information. In other words, you may have personal data that identifies someone even if you don’t know their name. regulates the processing by an individual, a company or an organisation of personal data relating to individuals in the EU.
+
+** Vsebina (predlog strukture oddaje):
+   
+=======================================
+============= VSEBINA TK ==============
++++++++++++++++++++++++++++++++++++++++
+   
+1. Kakšna je motivacija za uvedbo GDPR? (posegi v zasebnosti uporabnikov / tožbe / ...)
+    Zgodovina regulacij ravnanja z osebnimi podatki v evropi:
+  https://iapp.org/resources/article/a-brief-history-of-the-general-data-protection-regulation/
+
+  https://www.euractiv.com/section/digital/news/us-lobbying-waters-down-eu-data-protection-reform/
+  The overhaul of data protection rules proposed by Viviane Reding, the European Commission vice president in charge of fundamental rights, was substantially modified before it was published, following a heated debate within the EU executive. 
+  Some of the planned provisions raised many objections by the most business-minded commissioners, including Neelie Kroes (Digital Agenda) and Karel de Gucht (Trade).
+  Many lobbies tried to soften the rules concerning the newly introduced 'right to be forgotten,' enabling users to delete personal information that they no longer want to share with banks, online booking websites or social media. 
+  They also put their finger on the obligation to provide notification of data breaches and to obtain explicit consent to use personal data, as well as provisions related to the transfer of personal information to third countries.
+  As a consequence of this pressure, the text proposed by the Commission was significantly amended, before it even reached the European Parliament and the EU Council for consideration.
+
+  https://www.siliconrepublic.com/enterprise/gdpr-history-data-protection-ireland-eu
+
+  Okviren časovni lok uvedb:
+
+  ~ 90ta leta -> razpasili so se osebni računalniki, velik bum prenosa podatkov, javnost začne skrbeti varnost osebnih podatkov
+  - 1995 EU pripravlja vseevropsko direktivo o procesiranju in pretoku podatkov Directive 95/46/EC
+  - 1996 zaradi sporov okoli 29. člena nastane WP29, Working Party 29
+  - v veljavo pride 1998
+  - evropske državi direktivo različno (vsebinsko in časovno) uvedejo v nacionalno politiko
+  - 1998~2000 International Safe Harbor Privacy Principles / Safe Harbour Privacy Principles
+  - načela ravnanja podatkov za privatne organizacije, v izogib leakanju osebnih podatkov posameznikov
+  - 2000 evropska komisija odločila, da so US načela skladna z EU direktivami, "Safe harbour decision"
+  - Šrems se ni strinjal in vokaliziral svoje nelagodje, skupaj z dokazi; ECJ oktobra 2015 razveljavil skladnost US-EU
+  - 2. februarja 2016 sta se evropska komisija in US dogovorila za  "EU-US Privacy Shield"
+  3. 12. julij 2002 uvedena ePrivacy 2002/58/EC direktiva
+  - določa, kako naj se ravna z pretokom podatkov znotraj eu
+  2. Januarja 2012 nastane predlog GDPRja, ki naj bi naslovil težave
+  - GDPR uveden 24. maja 2016, pride v efekt 25. maja 2018
+
+      2. Kaj GDPR obsega? Kaj so zasebni podatki, ki se varujejo, kako morajo biti varovani?
+      3. Kako bo EU uveljavljal GDPR?
+      4. Kakšen bo realen vpliv na poslovanje podjetij? Gigantov, manjših?
+    
+** Kritike GDPR:
+  https://pagefair.com/blog/2017/gdpr-legitimate-interest/
+  https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/legitimate-interests/what-is-the-legitimate-interests-basis/
+  https://medium.com/mydata/five-loopholes-in-the-gdpr-367443c4248b
+    
+** Policijska direktiva
+Skupaj z gdpr v veljavo stopi še policijska direktiva (nisem ziher, če res glih skupaj), ki določa free flow = prosti tok osebnih podatkov kriminalnih prestopnikov https://ec.europa.eu/info/law/law-topic/data-protection/data-protection-eu_en
+
+** razni linki
+Njemacki indi film o data in regulaciji in EU
+http://www.democracy-film.de/
+
+ https://www.eff.org/
+ https://www.defectivebydesign.org/
+ 
+ Geert Lovink - človek za nizozemskim inšitutom za omrežne culture http://www.rtvslo.si/gospodarstvo/geert-lovink-facebook-moramo-uniciti-google-podruzbiti/453021 Na patetičen način napada spletne gigante. Ne poda alternative, niti izhodišča - intervju je tudi slab.
+ 
+ omenja:
+    - Youtube bo dal h konspiracy videom linke do wikipedije https://www.pcmag.com/news/359834/youtube-to-add-wikipedia-links-to-conspiracy-videos
+    - Mjanmar in facebook
+
+Tale se je zaprl zaradi gdprja, bojda: https://www.streetlend.com/
+
+** Pregleden GDPR: https://gdpr.algolia.com/sl/
+
+** Velekorporacije in GDPR
+================================================
+https://www.wsj.com/articles/stage-is-set-for-battle-over-data-privacy-in-europe-1526031104# Fin članek, predvsem o tem, kako se bodo velike firme lahko spopadle z GDPRjem
+“Behavioral advertising” is the name for the business, worth tens of billions of dollars a year, that allows companies to show users targeted advertising based on their internet activity.
+Facebook says the data it collects is necessary to fulfill its contract with users to provide “a personalized experience.”
+it is “unlikely” that contractual necessity would pass muster for “collection and processing of personal data arising from tracking off-platform”—that is, on sites or apps other than those belonging to a particular service provider.
+“What is really necessary for the performance of the contract between the users and Facebook?” asked Johannes Caspar, the privacy regulator for the city of Hamburg, Germany. That is “one of the crucial questions which we will have to answer under the GDPR.”
+The new law gives consumer groups the ability to lodge collective complaints, akin to class-action lawsuits, before privacy regulators or national courts.
+
+** Max Schrems in NYOB NGO
+
+Max Schrems in njegov NYOB NGO https://www.computerweekly.com/news/450432850/Max-Schrems-champions-NGO-to-fight-for-GDPR-rights
+Assuming NYOB achieves its crowdsourcing target and is up and running by 25 May 2018, Schrems said the aim will not be to go after every violation of the GDPR, but instead look at companies that deliberately do not follow the law because they believe they can gain a competitive advantage that way.
+
+https://noyb.eu/contact-media - tukaj imamo maxa schremsa in njegovo ekipco, ki hoče zbrat 250k € na leto, da bi se bockala s fejsbukom. Schrems 
+
+https://gdprinformer.com/news/max-schrems-launches-new-ngo-none-business
+
+epic je dal 5k € za nyob https://epic.org/
+
+** Še linki
+https://www.wsj.com/articles/how-europes-new-privacy-rules-favor-google-and-facebook-1524536324?mod=article_inline# - Ali bo GDPR oslabil facebookovo in googlovo konkurenco in še bolj utrdil oglaševalski duopol? Ta že sedaj pokasira 49% celotnega spletnega oglaševanja.
+Google tracka obiske 64% spletnih strani, facebook pa 29%. (Google ima 7 produktov Android, Google Play, Chrome, Search, Gmail, YouTube, Google Maps )
+Facebook has started showing its 277 million daily users in Europe detailed prompts urging them to approve Facebook’s use of their personal information, including sensitive items such as religion. One pop-up asks permission for Facebook to use data from other sites and advertisers to target ads at people on all of its apps, as well as on other websites where it sells ads.
+Court battles over whether companies are meeting GDPR’s requirement that consent be “freely given” are likely to drag on for years, said Eduardo Ustaran, a privacy lawyer at Hogan Lovells.
+- It published an updated “User Consent Policy” that will, as of May 25, require publishers and app owners that sell ads through Google to request consent that specifically mentions every company that might collect or process their users’ data, or risk being kicked off Google’s system.
+- 2 firmi sta prenehali s poslovanjem v EU - Verve, posreduje oglase glede na lokacijo ljudi, Drawbridge, ki tracka ljudi na različnih napravah.
+
+https://www.wsj.com/articles/facebook-provides-a-preview-of-its-privacy-makeover-1524027600 - fb prenovljeni user consent
+will start asking European users for permission to use their personal data to power features like facial recognition and some forms of targeted advertising.
+
+================================================
+drugo:
+    https://aeon.co/essays/how-communist-bulgaria-became-a-leader-in-tech-and-sci-fi
+
+===============================================
+
+** Direktiva it 2002 (kuki la')
+Mogoče bi bilo dobro naredit primerjavo z 
+Privacy and Electronic Communications Directive 2002 - https://en.wikipedia.org/wiki/Privacy_and_Electronic_Communications_Directive_2002 ki zahteva cookie consent - mislim, da je to ta ...
+Se kao ni preveč strogo vpeljevala in predvsem ni bilo inšpekcijskih nadzorov.
+
+===============================================
+
+** rendom linki
+https://www.theguardian.com/technology/askjack/2018/mar/29/gdpr-email-data-protection-regulations-secure
+https://www.theguardian.com/commentisfree/2017/aug/07/the-guardian-view-on-data-protection-a-vital-check-on-power
+https://www.jacobinmag.com/2017/04/internet-privacy-data-collection-trump-isps-fcc/
+https://www.theguardian.com/technology/2017/dec/14/facebook-russia-social-media-propaganda
+https://www.theguardian.com/technology/2017/sep/21/coding-education-teaching-silicon-valley-wages
+http://aksioma.org/ http://networkcultures.org/geert/ http://networkcultures.org/geert/2017/09/19/valuable-networks-interview-with-geert-lovink/ http://networkcultures.org/geert/2017/09/04/economy-and-politics-of-the-net-interview-with-geert-lovink/
+
+https://www.blog.google/topics/public-policy/responding-campaign-accountability-report-academic-research
+http://krisis.eu/
+
+http://www.asbis.com/download/cache/BlackBerry_GDPR.pdf?cid=20170627113625401612000000
+
+https://radiostudent.si/kultura/humanistika/hekerski-manifest
+http://www.nevladni.info/dan-vkljucujoce-informacijske-druzbe-2018/
+http://www.e-flux.com/architecture/superhumanity/179224/on-automation-and-free-time/
+
+
+Max Schrems in njegov NYOB NGO https://www.computerweekly.com/news/450432850/Max-Schrems-champions-NGO-to-fight-for-GDPR-rights
+Assuming NYOB achieves its crowdsourcing target and is up and running by 25 May 2018, Schrems said the aim will not be to go after every violation of the GDPR, but instead look at companies that deliberately do not follow the law because they believe they can gain a competitive advantage that way.
+
+https://noyb.eu/contact-media - tukaj imamo maxa schremsa in njegovo ekipco, ki hoče zbrat 250k € na leto, da bi se bockala s fejsbukom. Schrems 
+
+https://gdprinformer.com/news/max-schrems-launches-new-ngo-none-business
+
+epic je dal 5k € za nyob https://epic.org/
+
+https://www.wsj.com/articles/how-europes-new-privacy-rules-favor-google-and-facebook-1524536324?mod=article_inline# - Ali bo GDPR oslabil facebookovo in googlovo konkurenco in še bolj utrdil oglaševalski duopol? Ta že sedaj pokasira 49% celotnega spletnega oglaševanja.
+Google tracka obiske 64% spletnih strani, facebook pa 29%. (Google ima 7 produktov Android, Google Play, Chrome, Search, Gmail, YouTube, Google Maps )
+Facebook has started showing its 277 million daily users in Europe detailed prompts urging them to approve Facebook’s use of their personal information, including sensitive items such as religion. One pop-up asks permission for Facebook to use data from other sites and advertisers to target ads at people on all of its apps, as well as on other websites where it sells ads.
+Court battles over whether companies are meeting GDPR’s requirement that consent be “freely given” are likely to drag on for years, said Eduardo Ustaran, a privacy lawyer at Hogan Lovells.
+- It published an updated “User Consent Policy” that will, as of May 25, require publishers and app owners that sell ads through Google to request consent that specifically mentions every company that might collect or process their users’ data, or risk being kicked off Google’s system.
+- 2 firmi sta prenehali s poslovanjem v EU - Verve, posreduje oglase glede na lokacijo ljudi, Drawbridge, ki tracka ljudi na različnih napravah.
+
+https://www.wsj.com/articles/facebook-provides-a-preview-of-its-privacy-makeover-1524027600 - fb prenovljeni user consent
+will start asking European users for permission to use their personal data to power features like facial recognition and some forms of targeted advertising.
+
+================================================
+drugo:
+    https://aeon.co/essays/how-communist-bulgaria-became-a-leader-in-tech-and-sci-fi
+
+===============================================
+Mogoče bi bilo dobro naredit primerjavo z 
+Privacy and Electronic Communications Directive 2002 - https://en.wikipedia.org/wiki/Privacy_and_Electronic_Communications_Directive_2002 ki zahteva cookie consent - mislim, da je to ta ...
+Se kao ni preveč strogo vpeljevala in predvsem ni bilo inšpekcijskih nadzorov.
+
+===============================================
+
+* GDPR uredba (zapiski)
+** Različna obravnava mikro, malih in srednjih podjetij ter velikih podjetij (str. 3)
+  Za upoštevanje posebnega položaja mikro, malih in srednjih podjetij ta uredba vsebuje odstopanja glede vodenja evidenc za organizacije, ki zaposlujejo manj kot 250 oseb. Poleg tega se institucije in organe Unije ter države članice in njihove nadzorne organe spodbuja, da posebne potrebe mikro, malih in srednjih podjetij upoštevajo pri uporabi te uredbe. Pojem mikro, malih in srednjih podjetij bi moral temeljiti na členu 2 Priloge k Priporočilu Komisije 2003/361/ES ( 1 ).
+
+** Splošne določbe (Str. 32)
+   - Uredba določa pravila o varstvu posameznikov pri obdelavi osebnih podatkov in pravila o prostem pretoku osebnih podatkov. Varuje temeljne pravice in svoboščine posameznikov ter zlasti njihovo pravico do varstva osebnih podatkov. Prosti pretok osebnih podatkov v Uniji ne sme biti omejen ali prepovedan iz razlogov, povezanih z varstvom posameznikov pri obdelavi osebnih podatkov.
+
+   - Uporablja se za obdelavo osebnih podatkov posameznikov v EU:
+     - z nudenjem blaga ali storitev tem posameznikom (ne glede na to, ali je plačljivo ali brezplačno)
+     - s spremljanjem vedenja posameznikov, kolikor to poteka v EU
+
+** Opredelitev pojmov
+*** Osebni podatki
+    „osebni podatki“ pomeni katero koli informacijo v zvezi z določenim ali določljivim posameznikom (v nadaljnjem besedilu: posameznik, na katerega se nanašajo osebni podatki); določljiv posameznik je tisti, ki ga je mogoče neposredno ali posredno določiti, zlasti z navedbo identifikatorja, kot je ime, identifikacijska številka, podatki o lokaciji, spletni identifikator, ali z navedbo enega ali več dejavnikov, ki so značilni za fizično, fiziološko, genetsko, duševno, gospodarsko, kulturno ali družbeno identiteto tega posameznika;
+*** ... (str. 33)
+*** Zbirka
+    „zbirka“ pomeni vsak strukturiran niz osebnih podatkov, ki so dostopni v skladu s posebnimi merili, niz pa je lahko centraliziran, decentraliziran ali razpršen na funkcionalni ali geografski podlagi;
+    
+    ^ Kaj to pomeni za verige blokov, ki hranijo podatke?
+** Načela v zvezi z obdelavo osebnih podatkov (str. 35)
+** Zakonistost obdelave (str. 36)
+** Posebne vrste osebnih podatkov (str. 38)
+   Prepovedani sta obdelava osebnih podatkov, ki razkrivajo rasno ali etnično poreklo, politično mnenje, versko ali filozofsko prepričanje ali članstvo v sindikatu, in obdelava genetskih podatkov, biometričnih podatkov za namene edinstvene identifikacije posameznika, podatkov v zvezi z zdravjem ali podatkov v zvezi s posameznikovim spolnim življenjem ali spolno usmerjenostjo
+   
+   Razen če je posameznik, na katerega se nanašajo osebni podatki, dal izrecno privolitev v obdelavo navedenih podatkov za enega ali več določenih namenov
+
+** Omejitve (str. 46)
+   Pravo Unije ali pravo države članice, ki velja za upravljavca ali obdelovalca podatkov, lahko z zakonodajnim ukrepom omeji obseg obveznosti in pravic iz členov 12 do 22 in člena 34, pa tudi člena 5, kolikor njegove določbe ustrezajo pravicam in obveznostim iz členov 12 do 22, če taka omejitev spoštuje bistvo temeljnih pravic in svoboščin ter je potreben in sorazmeren ukrep v demokratični družbi za zagotavljanje:
+(a) državne varnosti;
+(b) obrambe;
+(c) javne varnosti;
+(d) preprečevanja, preiskovanja, odkrivanja ali pregona kaznivih dejanj ali izvrševanja kazenskih sankcij, vključno z varovanjem pred grožnjami javni varnosti in njihovim preprečevanjem;
+(e) drugih pomembnih ciljev v splošnem javnem interesu Unije ali države članice, zlasti pomembnega gospodarskega ali finančnega interesa Unije ali države članice, vključno z denarnimi, proračunskimi in davčnimi zadevami, javnim zdravjem in socialno varnostjo;
+(f) varstva neodvisnosti sodstva in sodnega postopka;
+(g) preprečevanja, preiskovanja, odkrivanja in pregona kršitev etike v zakonsko urejenih poklicih;
+(h) spremljanja, pregledovanja ali urejanja, povezanega, lahko tudi zgolj občasno, z izvajanjem javne oblasti v primerih iz točk (a) do (e) in (g);
+(i) varstva posameznika, na katerega se nanašajo osebni podatki, ali pravic in svoboščin drugih;
+(j) uveljavljanja civilnopravnih zahtevkov.
+
+*** Upravljalec in obdelovalec (str. 47)
+ (psevdonimizacija) <- zajetih podatkov naj bo cim manj, ce je mozno naj bodo
+ psevdonimizirani (kar pomeni, da so potrebni dodatni podatki za
+ individuacijo); tudi za psevdonimizirane veljajo dolocbe ravnanja
+
+   (str. 51) 5. Obveznosti iz odstavkov 1 in 2 se ne uporabljajo za podjetje ali organizacijo, ki zaposluje manj kot 250 oseb, razen če je verjetno, da obdelava, ki jo izvaja, predstavlja tveganje za pravice in svoboščine posameznikov, na katere se nanašajo osebni podatki, in ni občasna, ali obdelava vključuje posebne vrste podatkov iz člena 9(1) ali osebne podatke v zvezi s kazenskimi obsodbami in prekrški iz člena 10.
+
+*** Sodelovanje z nadzornim organom (str. 51)
+   V primeru kršitve varstva osebnih podatkov upravljavec brez nepotrebnega odlašanja, po možnosti pa najpozneje v 72 urah po seznanitvi s kršitvijo, o njej uradno obvesti pristojni nadzorni organ v skladu s členom 55, razen če ni verjetno, da bi bile s kršitvijo varstva osebnih podatkov ogrožene pravice in svoboščine posamez
+   
+** Prenos v 3. države / področja
+(str. 61) Komisija v Uradnem listu Evropske unije in na svojem spletnem mestu objavi seznam tretjih držav, ozemelj, določenih sektorjev v tretji državi in mednarodnih organizacij, v zvezi s katerimi je sprejela sklep, da zagotavljajo ustrezno raven varstva oziroma je ne zagotavljajo več.
+
+** Pritožbe posameznikov
+   Vsak nadzorni organ olajša postopek vložitve pritožb iz točke (f) odstavka 1 z ukrepi, kot je obrazec za vložitev pritožbe, ki ga je mogoče izpolniti elektronsko, pri čemer niso izključena druga komunikacijska sredstva.
+   
+** Razmerja z drugimi direktivami / sporazumi
+
+*** Direktiva 95/46/ES
+    
+Člen 94
+Razveljavitev Direktive 95/46/ES
+1.
+Direktiva 95/46/ES se razveljavi z učinkom od 25. maja 2018.
+2.
+Sklicevanja na razveljavljeno direktivo se štejejo kot sklicevanja na to uredbo. Sklicevanja na Delovno skupino za
+varstvo posameznikov pri obdelavi osebnih podatkov, ustanovljeno s členom
+
+*** Direktiva 2002/58/ES
+    
+Člen 95
+Razmerje z Direktivo 2002/58/ES
+Ta uredba ne uvaja dodatnih obveznosti za fizične ali pravne osebe v zvezi z obdelavo, povezano z zagotavljanjem javno
+dostopnih elektronskih komunikacijskih storitev v javnih komunikacijskih omrežjih v Uniji v povezavi z zadevami, za
+katere veljajo posebne obveznosti z istim ciljem iz Direktive 2002/58/ES.
+
+*** Mednarodni sporazumi
+
+Razmerje s predhodno sklenjenimi sporazumi
+Mednarodni sporazumi, ki vključujejo prenos osebnih podatkov v tretje države ali mednarodne organizacije in ki so jih
+države članice sklenile pred 24. majem 2016 ter so skladni s pravom Unije, ki se je uporabljalo pred navedenim
+datumom, ostanejo veljavni, dokler niso spremenjeni, nadomeščeni ali razveljavljeni.
+
+* rendom linki
+https://www.theguardian.com/technology/askjack/2018/mar/29/gdpr-email-data-protection-regulations-secure
+https://www.theguardian.com/commentisfree/2017/aug/07/the-guardian-view-on-data-protection-a-vital-check-on-power
+https://www.jacobinmag.com/2017/04/internet-privacy-data-collection-trump-isps-fcc/
+https://www.theguardian.com/technology/2017/dec/14/facebook-russia-social-media-propaganda
+https://www.theguardian.com/technology/2017/sep/21/coding-education-teaching-silicon-valley-wages
+http://aksioma.org/ http://networkcultures.org/geert/ http://networkcultures.org/geert/2017/09/19/valuable-networks-interview-with-geert-lovink/ http://networkcultures.org/geert/2017/09/04/economy-and-politics-of-the-net-interview-with-geert-lovink/
+
+https://www.blog.google/topics/public-policy/responding-campaign-accountability-report-academic-research
+http://krisis.eu/
+
+http://www.asbis.com/download/cache/BlackBerry_GDPR.pdf?cid=20170627113625401612000000
+
+https://radiostudent.si/kultura/humanistika/hekerski-manifest
+http://www.nevladni.info/dan-vkljucujoce-informacijske-druzbe-2018/
+http://www.e-flux.com/architecture/superhumanity/179224/on-automation-and-free-time/
+
+* Lev Manovič - The language of new media
+=======================================
+Lev Manovič - The language of new media
+=======================================
+
+History of modern surveilance:
+    It starts with PHOTOGRAPHY. (Felix Tournachon Nadar leta 1858 posname prvo višinsko fotografijo pokrajine v Franciji. Takoj ga kontaktira vojska.)
+    1881 - unmanned photo balloons (Francija in Nemčija)
+    WW2 - radar, ki je potreboval novo oblike slike, nov zaslon (fotografija kaže preteklost, radar kaže sedanjost)
+
+* State of repair
+========================================
+      S T A T E   O F   R E P A I R     
+========================================
+
+Še ena zanimiva tema, o kateri sva se že pogovarjala, da jo morava naslovit. Pravtako sem že enkrat poročal v tehnobritoffu o John Deer traktorjih in o tem, kako imajo zaprte licence za software, ki poganja njihovo kmetijsko mehanizacijo predvsem traktorje. Motherboard je naredil prispevek o tem https://video.vice.com/en_us/video/motherboard-farmers-fighting-big-tech-right-to-repair-tractors/59a04cd18950d06e318a1c53
+Potem pa še zelo zanimivo dejstvo, da je v ZDA od leta 2015 naprej programska oprema za kmetijsko mehanizacijo izvzeta iz DMCA - digital milenium copyrajt act.
+
+Skratka tema je uporaba stare strojne opreme, reciklaža in to. Imamo nekaj društev/posameznikov, ki se v Sloveniji s tem ukvarja (Zeitgeist in Matej Ferenc Ferencio). V Sloveniji je nek zakon v veljavi, ki prepoveduje prodajo računalnikov sestavljenih iz rabljenih delov (ali pa nakup za javne ustanove - ne vem točno)
+
+In potem je tu še vprašanje, kje konča ne donkonca izrabljena, a kljub temu zavržena strojna oprema, se pravi elektronxki odpadki - Baje da v Nigeriji:
+    - https://radiostudent.si/politika/britoff/britoff-elektronskih-smeti%C5%A1%C4%8D
+    - https://futurism.com/e-waste-europe-illegal-electronics-nigeria/
+    - https://motherboard.vice.com/en_us/article/59jew8/e-waste-smuggling-nigeria
+    
+    
+========================================
+
+* RENDIM:
+    - https://tic.computer/ mini domišljijski računalnik
+    - http://lambdaway.free.fr/workshop/?view=lambdacode_inside_min lambda calculus
+
+** FB hejt spič škandal
+https://www.theguardian.com/technology/2018/apr/11/eu-heavy-sanctions-online-hate-speech-facebook-scandal - kaj je to?
+
+rendom^2 
+    
+* Linux RNG flaws - za vsak slučaj celo kopiram
+https://bugs.chromium.org/p/project-zero/issues/detail?id=1559
+    There are several issues in drivers/char/random.c, in particular related to the
+behavior of the /dev/urandom RNG during and shortly after boot.
+
+I'm sending this to security@kernel.org and Theodore Ts'o for now; it might make
+sense to also add Jason Donenfeld, since he's done some work around boot
+randomness?
+
+** Discarded early randomness, including device randomness ==
+A comment above rand_initialize() explains:
+
+/*
+ * Note that setup_arch() may call add_device_randomness()
+ * long before we get here. This allows seeding of the pools
+ * with some platform dependent data very early in the boot
+ * process. But it limits our options here. We must use
+ * statically allocated structures that already have all
+ * initializations complete at compile time. We should also
+ * take care not to overwrite the precious per platform data
+ * we were given.
+ */
+
+In other words, the intent is that none of the early randomness, in particular
+device randomness, should be discarded.
+
+rand_initialize() starts by "initializing" the input_pool and the blocking_pool
+by mixing some extra entropy into them (real time, multiple time stamp counters
+and the utsname); it doesn't clear the pools to avoid clobbering existing
+entropy.
+The primary_crng, however, is fully reinitialized, discarding its existing
+state.
+
+In the crng_init==0 stage, entropy from various in-kernel sources, including
+device randomness and interrupt randomness, is fed into the primary_crng
+directly, but not into the input_pool.
+
+Therefore, the entropy that was collected in the crng_init==0 stage will
+disappear during rand_initialize().
+
+AFAICS device randomness is discarded since
+commit ee7998c50c26 ("random: do not ignore early device randomness"); before
+that, only interrupt randomness and hardware generator randomness were discarded
+this way.
+
+** RNG is treated as cryptographically safe too early ==
+Multiple callers, including sys_getrandom(..., flags=0), attempt to wait for the
+RNG to become cryptographically safe before reading from it by checking for
+crng_ready() and waiting if necessary. However, crng_ready() only checks for
+`crng_init > 0`, and `crng_init==1` does not imply that the RNG is
+cryptographically safe.
+
+Interrupt randomness is mixed in a fast pool of size 16 bytes, and every 64
+interrupts, the fast pool is flushed into the primary_crng. That's 1/4 byte per
+interrupt in the fast load accounting.
+OTOH, device randomness is piped straight into the primary_crng and accounted
+with one byte per written byte.
+As soon as 64 bytes have been written into the primary_crng, the RNG moves to
+crng_init==1.
+This accounting is very unbalanced.
+
+The device entropy fed into the kernel in this way includes:
+
+ - DMI table
+ - kernel command line string
+ - MAC addresses of network devices
+ - USB device serial, product, and manufacturers (all as strings)
+
+On a system I'm testing on, in practice, the RNG just reads the DMI table and
+then, since the DMI table is way bigger than 64 bytes, immediately moves to
+crng_init==1 without using even a single sample of interrupt randomness.
+
+The worst part of this (one device entropy sample being enough to move to
+crng_init==1) was AFAICS introduced in
+commit ee7998c50c26 ("random: do not ignore early device randomness"), first in
+v4.14.
+
+** Interaction between kernel and entropy-persisting userspace is broken ==
+A comment above the kernel code suggests:
+
+ * Ensuring unpredictability at system startup
+ * ============================================
+ *
+ * When any operating system starts up, it will go through a sequence
+ * of actions that are fairly predictable by an adversary, especially
+ * if the start-up does not involve interaction with a human operator.
+ * This reduces the actual number of bits of unpredictability in the
+ * entropy pool below the value in entropy_count.  In order to
+ * counteract this effect, it helps to carry information in the
+ * entropy pool across shut-downs and start-ups.  To do this, put the
+ * following lines an appropriate script which is run during the boot
+ * sequence:
+ *
+ * echo "Initializing random number generator..."
+ * random_seed=/var/run/random-seed
+ * # Carry a random seed from start-up to start-up
+ * # Load and then save the whole entropy pool
+ * if [ -f $random_seed ]; then
+ * cat $random_seed >/dev/urandom
+ * else
+ * touch $random_seed
+ * fi
+ * chmod 600 $random_seed
+ * dd if=/dev/urandom of=$random_seed count=1 bs=512
+ *
+ * and the following lines in an appropriate script which is run as
+ * the system is shutdown:
+[...]
+ * Effectively, these commands cause the contents of the entropy pool
+ * to be saved at shut-down time and reloaded into the entropy pool at
+ * start-up.  (The 'dd' in the addition to the bootup script is to
+ * make sure that /etc/random-seed is different for every start-up,
+ * even if the system crashes without executing rc.0.)  Even with
+ * complete knowledge of the start-up activities, predicting the state
+ * of the entropy pool requires knowledge of the previous history of
+ * the system.
+
+Counterintuitively, after such a startup script has executed, the seed data
+reloaded by the script probably won't actually influence data that is read from
+/dev/urandom directly afterwards:
+
+ - If the seed data is loaded with crng_init < 2, the seed data written into the
+   input_pool will not flow into the primary_crng or into the NUMA CRNGs until
+   `crng_init == 2`.
+ - If the seed data is loaded with `crng_init == 2`, the seed data written into
+   the input_pool will only propagate into the primary_crng, and from there into
+   the NUMA CRNGs, with delays of 5 minutes (!) each (CRNG_RESEED_INTERVAL).
+
+This has two consequences:
+
+ - Services that seed their own RNG from /dev/urandom shortly after the seed
+   data has been loaded into the kernel RNG will probably only use boot entropy;
+   the RNG seeds used by such services will be independent from the persistent
+   seed.
+ - The data written back to the seed file by the boot script will be independent
+   from the previous persistent seed; if the system is shut down uncleanly
+   (without running the shutdown script) and then powered up again, the
+   persistent seed file will only contain entropy collected during the previous
+   boot.
+
+** No entropy is fed into NUMA CRNGs between rand_initialize() initcall and crng_init==2 ==
+When the RNG subsystem is initialized using the early_initcall hook
+rand_initialize, the NUMA CRNGs (introduced in
+commit 1e7f583af67b ("random: make /dev/urandom scalable for silly userspace programs"),
+first in v4.8) are initialized using entropy from the primary_crng after it has
+been reinitialized from the input_pool. This entropy is:
+
+ - If crng_init==0: Real time, some cycle counters, utsname (all from
+   init_std_data() and crng_initialize()), and potentially events from
+   add_timer_randomness() if any have happened at that point.
+ - If crng_init==1: Real time, some cycle counters, utsname, all timer
+   randomness that has happened up to the rand_initialize() call, and any
+   device/timer/hardware-rng/interrupt randomness that may have come in between
+   the time crng_init became 1 and the rand_initialize() call, and are not still
+   batched.
+
+In the crng_init==0 case, the primary_crng will be fed with entropy until
+crng_init==1; but in either case, no more entropy can reach the NUMA CRNGs until
+crng_init==2, even though the kernel will assume that the NUMA CRNGs are
+cryptographically safe once crng_init==1.
+
+In other words, /dev/urandom reads will return data whose entropy only comes
+from timing samples in the first few dozen milliseconds of system boot for
+(depending on the system) minutes after the system has booted.
+
+** initcall can propagate entropy into primary and NUMA CRNGs while crng_init==1 ==
+My understanding of the intent behind the crng_init states is as follows:
+
+ - state 0: early startup; want to get entropy into the RNG quickly
+ - state 1: buffer up 128 bits of entropy to prevent an attacker with access
+   to multiple RNG samples across system boot from continuously brute-forcing
+   the RNG input in small chunks
+ - state 2: feed all the buffered entropy into the RNG at once, then continue
+   feeding entropy into the RNG every 5 minutes
+
+If this interpretation is correct, it is problematic that, if the
+rand_initialize() initcall happens while crng_init==1, entropy from the input
+pool is propagated into the primary RNG and the NUMA CRNGs: If this happens, the
+amount of entropy that is fed into the user-accessible RNGs at once is, in the
+theoretical worst case, halved.
+
+** Impact
+I have spent a few days attempting to figure out how bad these issues are.
+I believe that on an Intel Grass Canyon system, with RDRAND disabled,
+ASLR disabled, fast boot enabled, no connected devices, with boot on power,
+some frequency scaling options disabled, and the fan set to maximum,
+it should be possible to express the entropy in the used RDTSC samples in around
+105 bits or less. (I'm not sure which parts of this configuration actually
+influence the amount of entropy; but ASLR certainly does influence it, since the
+one interrupt sample that is fed into the RNG before the RNG initialization
+contains an instruction pointer.)
+
+From eight boots, the initial TSC samples (in hex):
+11ea2f6f6,11ea54523,11e6337b9,11ea1100c,11e9e66d6,11e9d5165,11e7d1742,11e9e4a9d
+
+The deltas between following TSC samples (in hex; each block of numbers
+corresponds to one boot):
+
+479a b214a34 3021c16 9fccbb d7 7d 6e 69 73 69 69 69 69 69 69 69 73 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 6e 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 51c7 a a a a a a 5 a a a 5
+
+47b8 b205fb6 3025a4b 9fd990 dc 7d 69 69 73 69 69 69 69 69 69 69 73 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 6e 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 519a f a a a a a 5 a a a 5
+
+479a b23b02b 3023930 9f89f9 d7 7d 6e 69 73 69 69 69 69 69 69 69 73 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 6e 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 523a f a a a a a 5 a a a 5
+
+47b3 b2053b8 30223be 9fc76b dc 7d 69 69 73 69 69 69 69 69 69 69 73 69 69 69 69 69 69 69 69 69 69 69 69 69 6e 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 51e0 a a a a a a 5 a a a 5
+
+4565 b2096ac 3021b30 9fa22c d2 7d 6e 69 73 69 69 69 69 69 69 69 73 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 6e 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 5208 f a 5 a a a a a 5 a a
+
+47ae b20cab4 301e7d2 9fb82a d2 7d 6e 69 6e 69 69 69 69 69 6e 69 73 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 6e 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 51ea a a a a a a a 5 a a a
+
+4795 b21227f 30218e2 9ffe66 d2 7d 6e 69 6e 69 69 69 69 69 6e 69 73 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 6e 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 551e f 5 a a a a a 5 a a a
+
+4795 b2242bd 30230fc 9fb6ae d7 7d 69 69 73 69 69 69 69 69 69 69 73 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 6e 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 69 5140 f a a a 5 a a a a 5 a
+
+On top of that, there is entropy from the ktime_get_real() call in
+init_std_data(); the amount of entropy from that depends on how precisely an
+attacker knows the system boot time.
+
+This bug is subject to a 90 day disclosure deadline. After 90 days elapseor a patch has been made broadly available, the bug report will becomevisible to the public.
+e, the bug report will becomevisible to the public.
