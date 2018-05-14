@@ -41,10 +41,31 @@ Splošna Data Varnostna Regulacija
   - https://www.theguardian.com/technology/2018/jan/31/data-laws-corporate-america-capitalism  The flow of data now contributes more to world GDP than the flow of physical goods. In other words, there’s more money in moving information across borders than in moving soybeans and refrigerators.
 This is a big shift – and one that has yet to fully sink in for most people. Corporate America, on the other hand, understands it well. Which is why the tech and financial industries are pushing hard for international agreements that prohibit governments from regulating these flows. The most recent example is Nafta: representatives from the US, Mexico, and Canada just concluded another round of talks on renegotiating the treaty. American companies are lobbying for changes that would deregulate data across the three countries.   The Chinese regulations aren’t just about repression, however – they also play a valuable economic role. By building a fence around the Chinese internet, the government has nurtured a homegrown tech industry, in much the same way that restricting imports of manufactured goods can nurture a homegrown manufacturing industry. It’s hard to imagine that China would have a booming local tech sector, centered on big firms like Baidu, Alibaba, and Tencent, without such measures.
 
-** GDPR - kaj je / kaj obsega?
+** GDPR - kaj je / kaj obsega
 
-“Personal data” includes names, addresses, phone numbers and IP addresses, as well as what GDPR calls “factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person”. That includes biometrics such as face, fingerprint and iris recognition, and genetic information. In other words, you may have personal data that identifies someone even if you don’t know their name. regulates the processing by an individual, a company or an organisation of personal data relating to individuals in the EU.
+*** Terminologija (člen 4)
 
+**** Osebni podatki
+     - Katerakoli informacija v zvezi z določenim ali določljivim posameznikom
+     - določljiv posameznik je tisti, ki ga je mogoče posredno ali neposredno določiti
+     - ... kot je ime, identifikacijska številka, podatki o lokaciji, spletni identifikator
+     - .. ali z navedbo enega ali več dejavnikov, ki so značilni za fizično, fiziološko, genetsko, duševno, gospodarsko, kulturno ali družbeno identiteto tega posameznika; 
+**** Obdelava
+     - vsako dejanje ali niz dejanj, ki se izvaja v zvezi z osebnimi podatki ali nizi osebnih podatkov
+     - z avtomatiziranimi sredstvi ali brez njih
+     - zbiranje, beleženje, urejanje, strukturiranje, shranjevanje, prilagajanje ali spreminjanje, priklic, vpogled, uporaba, razkritje s posredovanjem, razširjanje ali drugačno omogočanje dostopa, prilagajanje ali kombiniranje, omejevanje, izbris ali uničenje
+**** Oblikovanje profilov
+     - vsaka oblika avtomatizirane obdelave osebnih podatkov, ki vključuje uporabo osebnih podatkov za ocenjevanje nekaterih osebnih vidikov v zvezi s posameznikom, zlasti za analizo ali predvidevanje uspešnosti pri delu, ekonomskega položaja, zdravja, osebnega okusa, interesov, zanesljivosti, vedenja, lokacije ali gibanja tega posameznika
+**** Upravljalec
+     - fizična ali pravna oseba, javni organ, agencija ali drugo telo, ki samo ali skupaj z drugimi določa namene in sredstva obdelave
+     - upravljavec ali posebna merila za njegovo imenovanje se lahko določijo s pravom Unije ali pravom države članice 
+**** Obdelovalec
+**** Glavni sedež
+     - Velja za upravljalce in obdelovalce, ki imajo sedeže v več kot eni državi članici
+     - upravljalec: kraj njegove osrednje uprave v Uniji ali, kadar se odločitve o namenih in sredstvih obdelave osebnih podatkov sprejemajo na drugem sedežu upravljavca v Uniji, sedež, ki sprejema take odločitve
+     - obdelovalcem: kraj njegove osrednje uprave v Uniji ali, če nima osrednje uprave v Uniji, sedež v Uniji, kjer se izvajajo glavne dejavnosti obdelave v okviru dejavnosti sedeža obdelovalca, kolikor za obdelovalca veljajo posebne obveznosti iz te uredbe
+**** Predstavnik
+     - pomeni fizično ali pravno osebo s sedežem v Uniji, ki jo pisno imenuje upravljavec ali obdelovalec v skladu s členom 27 in ki predstavlja upravljavca ali obdelovalca v zvezi z njegovimi obveznostmi iz te uredbe
 ** Vsebina (predlog strukture oddaje):
    
 =======================================
@@ -88,7 +109,10 @@ This is a big shift – and one that has yet to fully sink in for most people. C
 ** Kritike GDPR:
   https://pagefair.com/blog/2017/gdpr-legitimate-interest/
   https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/legitimate-interests/what-is-the-legitimate-interests-basis/
+  
   https://medium.com/mydata/five-loopholes-in-the-gdpr-367443c4248b
+  
+  
     
 ** Policijska direktiva
 Skupaj z gdpr v veljavo stopi še policijska direktiva (nisem ziher, če res glih skupaj), ki določa free flow = prosti tok osebnih podatkov kriminalnih prestopnikov https://ec.europa.eu/info/law/law-topic/data-protection/data-protection-eu_en
