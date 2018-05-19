@@ -32,11 +32,18 @@ Splošna Data Varnostna Regulacija
    
    Ubistvu so članki na the.reg precej slabi in senzacionalistični, kakor oni pač radi delajo. Tukaj še članek z EFF, ki je bolj prizemljen in z več relevantnimi podatki: https://www.eff.org/deeplinks/2018/04/privacy-afterthought-icanns-response-gdpr  The board proposal is an improvement on the status quo, but doesn't go as far in protecting privacy as we would like it to. For example, it leaves it up to individual registrars as to whether they should apply these privacy protections to all domain owners worldwide, or attempt to limit them to those within the European Economic Area. It also contains a too expansive suggested list of acceptable purposes for the collection and processing of WHOIS personal data, including "to address issues involving domain name registrations, including but not limited to: consumer protection, investigation of cybercrime, DNS abuse, and intellectual property protection." 
    
+ - Še en članek o domenskih providerjih in GDPR-ju (related!):
+   https://www.theregister.co.uk/2018/05/18/gdpr_icann_domain_sellers/
+   
+   Skratka, ICANN je najvišja avtoriteta med institucijami, ki bdijo nad domenskim sistemom. Zato tudi nosijo odgovornost, med drugim za WHOIS, storitev za vpogled v podatke o posameznikih oz. organizacijah, ki so registrirale domene. Ta storitev je javno dostopna, njen primarni namen pa je omogočiti komunikacijo z lastniki domen.
+   
+   Ker pa WHOIS storitev javno objavlja imena, naslove, telefonske številke in emaile lastnikov domen, ni skladna z GDPR regulacijo. ICANN se je začel zelo pozno ukvarjat z "reformiranjem" WHOIS storitve; 
+   
  - https://arstechnica.com/tech-policy/2018/04/facebook-removes-1-5-billion-users-from-protection-of-eu-privacy-law/ Facebook je spremenil pogoje sodelovanja za vse uporabnike zunaj EU - prej so vsi neevropejci podpisali sporazum s fb irska, po novem pa bo to fb kalifornija - to je v nasprotju s tem, kar je zatrdil na zaslišanju pred kongresom, kjer je rekel, da bodo vsi uporabniki deležnih EU pravil o zasebnosti. Afrika, Azija, Avstralija, Latinska Amerika - to je 1.5 mrd uporabnikov. Fora fb irske je bil nizek davek na dohodek, očitno ta več ne odtehta striktnih pravil o zasebnosti. In practice, the change means the 1.5 billion affected users will not be able to file complaints with Ireland’s Data Protection Commissioner or in Irish courts. Instead they will be governed by more lenient U.S. privacy laws, said Michael Veale, a technology policy researcher at University College London. Other multinational companies are also planning changes. LinkedIn, a unit of Microsoft Corp, tells users in its existing terms of service that if they are outside the United States, they have a contract with LinkedIn Ireland. New terms that take effect May 8 move non-Europeans to contracts with U.S.-based LinkedIn Corp. https://www.reuters.com/article/us-facebook-privacy-eu-exclusive/exclusive-facebook-to-change-user-terms-limiting-effect-of-eu-privacy-law-idUSKBN1HQ00P?il=0
  
  - https://arstechnica.com/tech-policy/2018/04/atts-least-favorite-net-neutrality-bill-takes-another-step-forward/ V Kaliforniji pa bodo ovrgli zakon o FCC in uvedli nevtralnost spleta.  Enkrat še za prebrat https://arstechnica.com/tech-policy/2018/02/why-ajit-pai-might-fail-in-quest-to-block-state-net-neutrality-laws/
  
- http://www.bentarnoff.com/
+  - http://www.bentarnoff.com/
   - https://www.theguardian.com/technology/2018/mar/14/tech-big-data-capitalism-give-wealth-back-to-people SLABO moraliziranje
   - https://www.theguardian.com/technology/2018/jan/31/data-laws-corporate-america-capitalism  The flow of data now contributes more to world GDP than the flow of physical goods. In other words, there’s more money in moving information across borders than in moving soybeans and refrigerators.
 This is a big shift – and one that has yet to fully sink in for most people. Corporate America, on the other hand, understands it well. Which is why the tech and financial industries are pushing hard for international agreements that prohibit governments from regulating these flows. The most recent example is Nafta: representatives from the US, Mexico, and Canada just concluded another round of talks on renegotiating the treaty. American companies are lobbying for changes that would deregulate data across the three countries.   The Chinese regulations aren’t just about repression, however – they also play a valuable economic role. By building a fence around the Chinese internet, the government has nurtured a homegrown tech industry, in much the same way that restricting imports of manufactured goods can nurture a homegrown manufacturing industry. It’s hard to imagine that China would have a booming local tech sector, centered on big firms like Baidu, Alibaba, and Tencent, without such measures.
@@ -109,9 +116,14 @@ This is a big shift – and one that has yet to fully sink in for most people. C
 ** Kritike GDPR:
   https://pagefair.com/blog/2017/gdpr-legitimate-interest/
   https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/legitimate-interests/what-is-the-legitimate-interests-basis/
-  
+  ^ tadva prevprašujeta "legitimni interes", ki mora biti podan kot razlog za pravno sprejemljivo obdelovanje podatkov
   https://medium.com/mydata/five-loopholes-in-the-gdpr-367443c4248b
+  ^ ta pa deluje bolj kot neko pravno jajcanje okoli tega, kaj je ali ni GDPR. tipo veliko govori spekulativno o tem, kaj bi lahko bila luknja v gdprju; ima zelo dolge tekste z zelo kompleksnimi analizami s kompleksnimi pravnimi pojmi in brez konkretnih sodb, razen lahko nejasnih projekcij o šibkosti GDPRja in možnosti zaobitev. Pogosto govori o novi ePrivacy direktivi, ki naj bi bila veliko boljša, ampak je nisem zasledil
   
+** Zasebnost in "wild west"
+   Ali je point zasebnosti da se pocutimo varne in si predstavljamo, da ni obdelave?
+   (inspiracija grobelnik)
+   ^ moralizacija, point je nuditi vzvod, ki dejansko vpliva na delovanje podjetij ...
   
     
 ** Policijska direktiva
