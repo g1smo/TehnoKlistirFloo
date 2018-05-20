@@ -1,6 +1,6 @@
 #+TITLE: Tehno Klistir 16
 
-WELCOME TO RISEUP'S ETHERPAD! Welcome, welcome, welcome
+WELCOME TO RISEUP'S ETHERPAD! Welcome, welcome, welcome, welcome, welcome, welcome
 
  WARNING: this pad is accessible by anyone who has the address to this pad, if you used an obvious name for the pad, it could be guessed.
  WARNING: This pad will be DELETED if 30 days go by with no edits. There is NO WAY to recover the pad after this happens, so be careful!
@@ -32,18 +32,11 @@ Splošna Data Varnostna Regulacija
    
    Ubistvu so članki na the.reg precej slabi in senzacionalistični, kakor oni pač radi delajo. Tukaj še članek z EFF, ki je bolj prizemljen in z več relevantnimi podatki: https://www.eff.org/deeplinks/2018/04/privacy-afterthought-icanns-response-gdpr  The board proposal is an improvement on the status quo, but doesn't go as far in protecting privacy as we would like it to. For example, it leaves it up to individual registrars as to whether they should apply these privacy protections to all domain owners worldwide, or attempt to limit them to those within the European Economic Area. It also contains a too expansive suggested list of acceptable purposes for the collection and processing of WHOIS personal data, including "to address issues involving domain name registrations, including but not limited to: consumer protection, investigation of cybercrime, DNS abuse, and intellectual property protection." 
    
- - Še en članek o domenskih providerjih in GDPR-ju (related!):
-   https://www.theregister.co.uk/2018/05/18/gdpr_icann_domain_sellers/
-   
-   Skratka, ICANN je najvišja avtoriteta med institucijami, ki bdijo nad domenskim sistemom. Zato tudi nosijo odgovornost, med drugim za WHOIS, storitev za vpogled v podatke o posameznikih oz. organizacijah, ki so registrirale domene. Ta storitev je javno dostopna, njen primarni namen pa je omogočiti komunikacijo z lastniki domen.
-   
-   Ker pa WHOIS storitev javno objavlja imena, naslove, telefonske številke in emaile lastnikov domen, ni skladna z GDPR regulacijo. ICANN se je začel zelo pozno ukvarjat z "reformiranjem" WHOIS storitve; 
-   
  - https://arstechnica.com/tech-policy/2018/04/facebook-removes-1-5-billion-users-from-protection-of-eu-privacy-law/ Facebook je spremenil pogoje sodelovanja za vse uporabnike zunaj EU - prej so vsi neevropejci podpisali sporazum s fb irska, po novem pa bo to fb kalifornija - to je v nasprotju s tem, kar je zatrdil na zaslišanju pred kongresom, kjer je rekel, da bodo vsi uporabniki deležnih EU pravil o zasebnosti. Afrika, Azija, Avstralija, Latinska Amerika - to je 1.5 mrd uporabnikov. Fora fb irske je bil nizek davek na dohodek, očitno ta več ne odtehta striktnih pravil o zasebnosti. In practice, the change means the 1.5 billion affected users will not be able to file complaints with Ireland’s Data Protection Commissioner or in Irish courts. Instead they will be governed by more lenient U.S. privacy laws, said Michael Veale, a technology policy researcher at University College London. Other multinational companies are also planning changes. LinkedIn, a unit of Microsoft Corp, tells users in its existing terms of service that if they are outside the United States, they have a contract with LinkedIn Ireland. New terms that take effect May 8 move non-Europeans to contracts with U.S.-based LinkedIn Corp. https://www.reuters.com/article/us-facebook-privacy-eu-exclusive/exclusive-facebook-to-change-user-terms-limiting-effect-of-eu-privacy-law-idUSKBN1HQ00P?il=0
  
  - https://arstechnica.com/tech-policy/2018/04/atts-least-favorite-net-neutrality-bill-takes-another-step-forward/ V Kaliforniji pa bodo ovrgli zakon o FCC in uvedli nevtralnost spleta.  Enkrat še za prebrat https://arstechnica.com/tech-policy/2018/02/why-ajit-pai-might-fail-in-quest-to-block-state-net-neutrality-laws/
  
-  - http://www.bentarnoff.com/
+ http://www.bentarnoff.com/
   - https://www.theguardian.com/technology/2018/mar/14/tech-big-data-capitalism-give-wealth-back-to-people SLABO moraliziranje
   - https://www.theguardian.com/technology/2018/jan/31/data-laws-corporate-america-capitalism  The flow of data now contributes more to world GDP than the flow of physical goods. In other words, there’s more money in moving information across borders than in moving soybeans and refrigerators.
 This is a big shift – and one that has yet to fully sink in for most people. Corporate America, on the other hand, understands it well. Which is why the tech and financial industries are pushing hard for international agreements that prohibit governments from regulating these flows. The most recent example is Nafta: representatives from the US, Mexico, and Canada just concluded another round of talks on renegotiating the treaty. American companies are lobbying for changes that would deregulate data across the three countries.   The Chinese regulations aren’t just about repression, however – they also play a valuable economic role. By building a fence around the Chinese internet, the government has nurtured a homegrown tech industry, in much the same way that restricting imports of manufactured goods can nurture a homegrown manufacturing industry. It’s hard to imagine that China would have a booming local tech sector, centered on big firms like Baidu, Alibaba, and Tencent, without such measures.
@@ -120,10 +113,6 @@ This is a big shift – and one that has yet to fully sink in for most people. C
   https://medium.com/mydata/five-loopholes-in-the-gdpr-367443c4248b
   ^ ta pa deluje bolj kot neko pravno jajcanje okoli tega, kaj je ali ni GDPR. tipo veliko govori spekulativno o tem, kaj bi lahko bila luknja v gdprju; ima zelo dolge tekste z zelo kompleksnimi analizami s kompleksnimi pravnimi pojmi in brez konkretnih sodb, razen lahko nejasnih projekcij o šibkosti GDPRja in možnosti zaobitev. Pogosto govori o novi ePrivacy direktivi, ki naj bi bila veliko boljša, ampak je nisem zasledil
   
-** Zasebnost in "wild west"
-   Ali je point zasebnosti da se pocutimo varne in si predstavljamo, da ni obdelave?
-   (inspiracija grobelnik)
-   ^ moralizacija, point je nuditi vzvod, ki dejansko vpliva na delovanje podjetij ...
   
     
 ** Policijska direktiva
@@ -319,6 +308,51 @@ Razmerje s predhodno sklenjenimi sporazumi
 Mednarodni sporazumi, ki vključujejo prenos osebnih podatkov v tretje države ali mednarodne organizacije in ki so jih
 države članice sklenile pred 24. majem 2016 ter so skladni s pravom Unije, ki se je uporabljalo pred navedenim
 datumom, ostanejo veljavni, dokler niso spremenjeni, nadomeščeni ali razveljavljeni.
+
+
+* Izpiski sobota 20180519
+
+** Motherboard
+   Kaj je to GDPR - https://motherboard.vice.com/en_us/article/xwmx3n/what-is-gdpr
+   - Update EU privacy iz 1995.
+   - GDPR 2016
+     - transparentnost za uporabnika - glede zbiranja podatkov in njihove obdelave/prodaje
+     - zahteva delujoče rešitve za odjavo od storitev
+     - 72 ur po vdoru v sistem morajo biti o tem obveščeni uporabniki
+     - uporabniki morajo imeti možnost pridobitve svojih osebnih podatkov
+     - Kazni za podjetja
+     - definicija osebnih podatkov
+   - kritika
+     - whois
+     - right to be forgotten lahko vpliva na svobodo govora
+
+   whois, icann in gdpr - https://motherboard.vice.com/en_us/article/vbpgga/whois-gdpr-europe-icann-registrar
+   - ICANN nima/ni imel politika, kako implementirati to
+   - whois je storitev, ki ti omogoči pridobiti podatke o registrantu domene,
+     ker pa podaja osebne podatke ni skladna z gdpr.
+     - goDaddy je najavail, da bo ukinil količinsko (obsežno) iskanje https://www.godaddy.com/community/Domain-Investing/Whois-Masking-what-is-changing/td-p/88329
+
+** Facebook je zaradi gdpr-ja skenslal reševanje suicidalnih posameznikov
+   https://www.techdirt.com/articles/20180128/21505439105/unintended-consequences-eus-new-internet-privacy-rules-facebook-wont-use-ai-to-catch-suicidal-users.shtml
+   
+** FB Privacy review
+   - facial recognition
+     - zato da neznanci ne bi mogli uporabiti vaših fotografij
+     - da ljudje s težavami z vidom lahko izvejo, kaj je na sliki
+   - ciljno oglaševanje
+
+     
+* Izjave
+  1. (0:48) Razlogi za uvedbo GDPR
+  2. (0:34) Kaj prinaša uredba GDPR?
+  3. (1:22) Zgodovina politike varovanja zasebnosti v evropi
+  4. (0:30) Nacionalni zakoni, ki spremljajo uredbo
+  5. (1:58) Nove pravice, ki jih uvaja GDPR
+  6. (1:48) Pozna in ne preveč (dobro) domišljena 2002 direktiva
+  7. (0:35) Kdo bo poskrbel za uveljavljanje pravic oz. hendlal kršitve
+  8. (1:28) Prenos osebnih podatkov v tretje države in mednarodne organizacije
+  9. (0:26) Uredba kot soliden kompromis
+  +++ Skupno 9:29 +++
 
 * rendom linki
 https://www.theguardian.com/technology/askjack/2018/mar/29/gdpr-email-data-protection-regulations-secure
@@ -594,3 +628,4 @@ attacker knows the system boot time.
 
 This bug is subject to a 90 day disclosure deadline. After 90 days elapseor a patch has been made broadly available, the bug report will becomevisible to the public.
 e, the bug report will becomevisible to the public.
+c.
