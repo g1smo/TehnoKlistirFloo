@@ -60,6 +60,7 @@ This is a big shift – and one that has yet to fully sink in for most people. C
      - fizična ali pravna oseba, javni organ, agencija ali drugo telo, ki samo ali skupaj z drugimi določa namene in sredstva obdelave
      - upravljavec ali posebna merila za njegovo imenovanje se lahko določijo s pravom Unije ali pravom države članice 
 **** Obdelovalec
+     - fizična ali pravna oseba, javni organ, agencija ali drugo telo, ki obdeluje podatke v imenu upravljalca
 **** Glavni sedež
      - Velja za upravljalce in obdelovalce, ki imajo sedeže v več kot eni državi članici
      - upravljalec: kraj njegove osrednje uprave v Uniji ali, kadar se odločitve o namenih in sredstvih obdelave osebnih podatkov sprejemajo na drugem sedežu upravljavca v Uniji, sedež, ki sprejema take odločitve
@@ -343,6 +344,7 @@ datumom, ostanejo veljavni, dokler niso spremenjeni, nadomeščeni ali razveljav
 
      
 * Izjave
+  - mag. Andrej Tomšič, namestnik informacijske pooblaščenke
   1. (0:48) Razlogi za uvedbo GDPR
   2. (0:34) Kaj prinaša uredba GDPR?
   3. (1:22) Zgodovina politike varovanja zasebnosti v evropi
